@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { volumes } from "../../lib/data";
-import { StyledVolumeDetail } from "../components/StyledVolumeDetail";
+import { volumes } from "../../lib/data.js";
+import { StyledVolumeDetail } from "../components/StyledVolumeDetail.js";
 import SvgChevron from "../../icon/chevron-left.svg";
 import SvgArrowLeft from "../../icon/arrow-left.svg";
 import SvgArrowRight from "../../icon/arrow-right.svg";
-import { StyledAllVolumesIntro } from "../components/StyledAllVolumesIntro";
-import { StyledBooks } from "../components/StyledBooks";
-import { StyledLinkNext } from "../components/StyledLinkNext";
-import { StyledLinkPrev } from "../components/StyledLinkPrev";
-import { StyledNavDiv } from "../components/StyledNavDiv";
+import { StyledAllVolumesIntro } from "../components/StyledAllVolumesIntro.js";
+import { StyledBooks } from "../components/StyledBooks.js";
+import { StyledLinkNext } from "../components/StyledLinkNext.js";
+import { StyledLinkPrev } from "../components/StyledLinkPrev.js";
+import { StyledNavDiv } from "../components/StyledNavDiv.js";
 
 export default function VolumeDetail() {
   const router = useRouter();
